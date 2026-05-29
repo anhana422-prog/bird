@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>生活中的鳥類世界</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #FFE17A;
+            font-family: "Microsoft JhengHei", sans-serif;
+            text-align: center;
+        }
+
+        h1{
+            color: #5D3D21;
+            font-size: 55px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        /* 白色介紹框 */
+        .white-box{
+            background-color: white;
+            color: black;
+            width: 75%;
+            margin: 30px auto;
+            padding: 35px;
+            border-radius: 25px;
+            line-height: 2;
+            font-size: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        /* 咖啡色介紹框 */
+        .brown-box{
+            background-color: #5D3D21;
+            color: white;
+            width: 75%;
+            margin: 30px auto;
+            padding: 35px;
+            border-radius: 25px;
+            line-height: 2;
+            font-size: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        /* 鳥類區域 */
+        .bird-container{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .bird-card{
+            text-align: center;
+        }
+
+        .bird-image{
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .bird-button{
+            display: inline-block;
+            margin-top: 18px;
+            background-color: #5D3D21;
+            color: white;
+            text-decoration: none;
+            padding: 14px 40px;
+            border-radius: 15px;
+            font-size: 22px;
+            transition: 0.3s;
+        }
+
+        .bird-button:hover{
+            background-color: #7a5431;
+            transform: scale(1.05);
+        }
+
+        .small-title{
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- 大標題 -->
+    <h1>生活中的鳥類世界</h1>
+
+    <!-- 第一個白色框框 -->
+    <div class="white-box">
+
+        <div class="small-title">
+            歡迎來到「生活中的鳥類世界」
+        </div>
+
+        <p>
+            你有沒有注意過，生活周遭其實有很多可愛的小鳥呢？
+        </p>
+
+        <p>
+            牠們可能出現在公園、校園、電線桿，甚至是家裡附近的樹上。
+            每一種鳥類都有不同的外型、叫聲與生活習性。
+        </p>
+
+        <p>
+            本網站結合 AR 擴增實境技術，讓大家可以透過掃描圖片，
+            近距離觀察鳥類的模樣，認識牠們的特徵與生活方式。
+        </p>
+
+        <p>
+            一起走進鳥類的世界，發現大自然的有趣魅力吧！
+        </p>
+
+    </div>
+
+    <!-- 第二個咖啡色框框 -->
+    <div class="brown-box">
+
+        <div class="small-title">
+            什麼是鳥類？
+        </div>
+
+        <p>
+            鳥類是一種有羽毛、會生蛋的動物，大部分的鳥都擁有翅膀，可以在天空飛翔。
+        </p>
+
+        <p>
+            不同種類的鳥類有不同的嘴巴、羽毛顏色與生活方式。
+            有些鳥喜歡住在森林，有些則生活在人類居住的地方。
+        </p>
+
+        <p>
+            鳥類不但能幫助傳播植物種子，也能維持自然生態平衡，
+            是大自然中非常重要的一部分。
+        </p>
+
+    </div>
+
+    <!-- 三種鳥類 -->
+    <div class="bird-container">
+
+        <!-- 麻雀 -->
+        <div class="bird-card">
+
+            <!-- 把 sparrow.jpg 換成你的圖片名稱 -->
+            <img src="https://cdn.phototourl.com/free/2026-05-29-0ef605bd-56fb-46f1-aec1-ab9f797fd4bc.jpg" alt="麻雀" class="bird-image">
+
+            <br>
+
+            <a href="https://liaoyu2005-hub.github.io/liao/456" class="bird-button">
+                麻雀
+            </a>
+
+        </div>
+
+        <!-- 白頭翁 -->
+        <div class="bird-card">
+
+            <!-- 把 bulbul.jpg 換成你的圖片名稱 -->
+            <img src="https://cdn.phototourl.com/free/2026-05-29-c3c65bc0-c814-48aa-b2d6-fa9b53a300aa.jpg" alt="白頭翁" class="bird-image">
+
+            <br>
+
+            <a href="https://liaoyu2005-hub.github.io/liao/123" class="bird-button">
+                白頭翁
+            </a>
+
+        </div>
+
+        <!-- 綠繡眼 -->
+        <div class="bird-card">
+
+            <!-- 把 greenbird.jpg 換成你的圖片名稱 -->
+            <img src="https://cdn.phototourl.com/free/2026-05-29-5a15ddb1-8492-42c0-afe9-1cf065a10371.jpg" alt="綠繡眼" class="bird-image">
+
+            <br>
+
+            <a href="https://liaoyu2005-hub.github.io/liao/788" class="bird-button">
+                綠繡眼
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- 最後白色框框 -->
+    <div class="white-box">
+
+        <div class="small-title">
+            鳥類小知識
+        </div>
+
+        <p>・不是所有鳥都會飛，例如企鵝與鴕鳥。</p>
+
+        <p>・鳥類的羽毛除了保暖，也能幫助飛行。</p>
+
+        <p>・有些鳥類會模仿聲音，例如八哥。</p>
+
+        <p>・台灣擁有非常豐富的鳥類生態。</p>
+
+    </div>
+
+</body>
+</html>
